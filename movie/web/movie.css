@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30 Apr, 2017, 12:20:45 AM
+    Author     : himanshu vaish
+*/
+#container {
+    background-color: white;
+    margin-bottom: 500px;
+    margin-left: 1000px;
+    margin-right: 50px;
+    margin-top: 100px;
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+}
+#movie{
+   
+     margin-bottom: 1300px;
+    margin-left: 500px;
+    margin-right:500px;
+    margin-top: 100px;
+     border:2px solid;
+    border-color:black;
+}
+ .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-bottom: 10000px;
+    margin-left: 600px;
+    margin-right: 500px;
+    margin-top: 0px;
+}
+#backgnd
+{
+    -webkit-transform: rotateX(120deg); /* Chrome, Safari, Opera */
+    transform: rotateX(120deg);
+    -moz-animation-duration: 3s;
+            -webkit-animation-duration: 3s;
+            -moz-animation-name: slidein;
+            -webkit-animation-name: slidein;
+         }
+         @-moz-keyframes slidein {
+            from {
+               margin-left:0%;
+               width:300%
+            }
+            to {
+               margin-left:80%;
+               width:100%;
+            }
+         }
+         @-webkit-keyframes slidein {
+            from {
+               margin-left:0%;
+               width:300%
+            }
+            to {
+               margin-left:80%;
+               width:100%;
+            }
+
+}
